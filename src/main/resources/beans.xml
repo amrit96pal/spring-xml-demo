@@ -13,4 +13,7 @@
     </bean>
     <bean id="lifecycle" class="com.stackroute.demo.BeanLifecycleDemoBean">
     </bean>
+    <bean id="postprocessor" class="com.stackroute.demo.BeanPostProcessorDemoBean">
+    </bean>
+
 </beans>
