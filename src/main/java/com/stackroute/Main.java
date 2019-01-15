@@ -21,9 +21,6 @@ public class Main {
         Movie movie1= (Movie) applicationContext.getBean("movie1");
         System.out.println("Age: "+movie1.getActor().getAge()+" name:"+movie1.getActor().getName()+" gender"+movie1.getActor().getGender());
 
-        /*Movie movie2= (Movie) applicationContext.getBean("movie2");
-        System.out.println("Age: "+movie2.getActor().getAge()+" name:"+movie2.getActor().getName()+" gender"+movie2.getActor().getGender());
-*/
     }
 }
 
