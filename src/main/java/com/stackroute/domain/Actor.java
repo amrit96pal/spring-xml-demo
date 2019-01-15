@@ -6,15 +6,9 @@ public class Actor {
     String gender;
     String name;
 
-    public void setAge(int age) {
+    public Actor(int age, String gender, String name) {
         this.age = age;
-    }
-
-    public void setGender(String gender) {
         this.gender = gender;
-    }
-
-    public void setName(String name) {
         this.name = name;
     }
 
@@ -29,5 +23,6 @@ public class Actor {
     public String getName() {
         return name;
     }
+
 }
 
