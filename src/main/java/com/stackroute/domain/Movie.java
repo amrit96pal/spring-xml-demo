@@ -38,5 +38,13 @@ public class Movie implements ApplicationContextAware, BeanFactoryAware, BeanNam
     this.context=context;
         System.out.println("Inside the Application Context aware"+context.getBean("actor"));
     }
+
+    public void customInit(){
+        System.out.println("Inside the custom init");
+    }
+
+    public  void  customDestroy(){
+        System.out.println("Inside the custom");
+    }
 }
 

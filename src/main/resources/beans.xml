@@ -9,7 +9,8 @@
         <constructor-arg name="name" value="Amrit"/>
     </bean>
 
-    <bean name="movie1" class="com.stackroute.domain.Movie" scope="prototype" autowire="constructor">
+    <bean name="movie1" class="com.stackroute.domain.Movie" scope="prototype" autowire="constructor" init-method="customInit" destroy-method="customDestroy">
     </bean>
-
+    <bean id="lifecycle" class="com.stackroute.demo.BeanLifecycleDemoBean">
+    </bean>
 </beans>
